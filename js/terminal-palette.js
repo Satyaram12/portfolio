@@ -199,10 +199,10 @@
 `,
     resume: () => `
 <div class="terminal-line"><span class="term-purple">Resume Summary:</span></div>
-<div class="terminal-line">  Role: Senior Full-Stack & Distributed Systems Engineer</div>
-<div class="terminal-line">  Experience: 6+ Years in high-scale SaaS, cloud infrastructure & UI engineering</div>
-<div class="terminal-line">  Track Record: Architected systems handling 25k+ req/sec with 99.99% uptime.</div>
-<div class="terminal-line">  Location: San Francisco, CA / Remote Worldwide</div>
+<div class="terminal-line">  Name: Satya Ram</div>
+<div class="terminal-line">  Role: Computer Science Engineer & AI/ML Specialist</div>
+<div class="terminal-line">  Focus: Neural Networks, Computer Vision, Data Modeling & Distributed Systems</div>
+<div class="terminal-line">  GitHub: github.com/Satyaram12</div>
 `,
     uptime: () => `
 <div class="terminal-line">System uptime: <span class="term-green">99.998%</span> | Active nodes: <span class="term-cyan">48/48 Healthy</span> | P99 Latency: <span class="term-green">14.2ms</span></div>
@@ -214,9 +214,9 @@
 `,
     contact: () => `
 <div class="terminal-line"><span class="term-purple">Contact Details:</span></div>
-<div class="terminal-line">  Email: <span class="term-green">alex.chen.dev@gmail.com</span></div>
-<div class="terminal-line">  GitHub: <span class="term-cyan">github.com/alexchen-dev</span></div>
-<div class="terminal-line">  LinkedIn: <span class="term-cyan">linkedin.com/in/alexchen-engineer</span></div>
+<div class="terminal-line">  Email: <span class="term-green">s09084268@gmail.com</span></div>
+<div class="terminal-line">  GitHub: <span class="term-cyan">github.com/Satyaram12</span></div>
+<div class="terminal-line">  LinkedIn: <span class="term-cyan">linkedin.com/in/satya-ram</span></div>
 `,
     theme: () => {
       if (window.toggleTheme) window.toggleTheme();
@@ -227,8 +227,8 @@
       return '';
     },
     matrix: () => `
-<div class="terminal-line"><span class="term-green">01000001 01101100 01100101 01111000 00100000 01000011 01101000 01100101 01101110</span></div>
-<div class="terminal-line"><span class="term-green">WAKE UP, RECRUITER... THE CODEBASE HAS YOU.</span></div>
+<div class="terminal-line"><span class="term-green">01010011 01100001 01110100 01111001 01100001 00100000 01010010 01100001 01101101</span></div>
+<div class="terminal-line"><span class="term-green">SATYA RAM // AI & MACHINE LEARNING SPECIALIST</span></div>
 `,
     exit: () => {
       closeTerminalModal();
@@ -248,7 +248,7 @@
         // Echo prompt
         const echoLine = document.createElement('div');
         echoLine.className = 'terminal-line';
-        echoLine.innerHTML = `<span class="term-prompt">alex@portfolio:~$</span> <span>${raw}</span>`;
+        echoLine.innerHTML = `<span class="term-prompt">satya@portfolio:~$</span> <span>${raw}</span>`;
         termBody.appendChild(echoLine);
 
         // Run command

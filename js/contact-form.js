@@ -43,7 +43,7 @@
 
   // --- 2. Copy Email to Clipboard ---
   const copyBtn = document.getElementById('copy-email-btn');
-  const directEmail = 'alex.chen.dev@gmail.com';
+  const directEmail = 's09084268@gmail.com';
 
   function copyDirectEmail() {
     navigator.clipboard.writeText(directEmail).then(() => {

@@ -31,7 +31,7 @@
       ],
       tech: ['Go', 'Rust', 'Next.js', 'Kafka', 'ClickHouse', 'Kubernetes', 'WebGL', 'Docker', 'OpenTelemetry'],
       live: 'https://console.nebula.io/observe',
-      github: 'https://github.com/alexchen-dev/apex-cloud-observability'
+      github: 'https://github.com/Satyaram12/portfolio'
     },
     neuralflow: {
       title: 'NeuralFlow — Real-Time Collaborative AI Canvas',
@@ -46,7 +46,7 @@
       ],
       tech: ['React', 'TypeScript', 'FastAPI', 'Python', 'Qdrant Vector DB', 'WebSockets', 'Tailwind CSS', 'Redis', 'Docker'],
       live: 'https://cognito-ai-flow.app',
-      github: 'https://github.com/alexchen-dev/neuralflow-ai-canvas'
+      github: 'https://github.com/Satyaram12/portfolio'
     },
     pulsepay: {
       title: 'PulsePay — Sub-Millisecond Global Fintech Settlement',
@@ -61,7 +61,7 @@
       ],
       tech: ['Go', 'Raft Protocol', 'PostgreSQL', 'CockroachDB', 'gRPC', 'AWS EKS', 'Grafana', 'Prometheus'],
       live: 'https://globepay-settlement.network',
-      github: 'https://github.com/alexchen-dev/pulsepay-fintech-engine'
+      github: 'https://github.com/Satyaram12/portfolio'
     },
     hyperion: {
       title: 'Hyperion Studio — Collaborative WebGL 3D Pipeline',
@@ -76,7 +76,7 @@
       ],
       tech: ['Three.js', 'WebGL', 'WebAssembly', 'TypeScript', 'GLSL Shaders', 'WebRTC', 'Vite', 'CSS Glassmorphism'],
       live: 'https://neonflow.studio/editor',
-      github: 'https://github.com/alexchen-dev/hyperion-3d-studio'
+      github: 'https://github.com/Satyaram12/portfolio'
     }
   };
 
